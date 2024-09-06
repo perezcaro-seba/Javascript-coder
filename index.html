@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Barberia Torres</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="/style.css">
+    
+</head>
+<body>
+    <h1>Barberia Torres</h1>
+<img class="logo" src="https://img.freepik.com/vector-premium/logo-barberia-calavera_43623-577.jpg" alt="logo">
+
+<h2>Productos de Barbería</h2>
+    <table id="tablaProductos">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <h2>Carrito de Compras</h2>
+    <table id="tablaCarrito">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Total</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+ <h3>Total: $<span id="totalCarrito">0</span></h3>
+
+            
+        </tbody>
+    </table>
+
+    <h2>Reserva tu cita</h2>
+    <form id="reservaForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Celular:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <label for="barbero">Barbero:</label>
+        <select id="barbero" name="barbero" required>
+            <
+        </select>
+
+        <label for="servicio">Servicio:</label>
+        <select id="servicio" name="servicio" required>
+            
+        </select>
+
+        <button type="submit">Reservar</button>
+    </form>
+
+    <script src="/index.js"></script>
+</body>
+</html>
